@@ -3,6 +3,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/css_binding">Css Binding</router-link> |
       <router-link to="/form_input">Form Input</router-link> |
+      <router-link to="/slot">Slot</router-link> |
     </div>
 </template>
 
