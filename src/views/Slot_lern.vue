@@ -5,11 +5,18 @@
     </Clock>
 
     <Clock>
-      <span style="color:red;">Current time :</span>
+      <span style="color:hotpink;">เวลาปัจจุบัน 123:</span>
+
+      <template v-slot:header>
+        <h1>Header</h1>
+      </template>
+
+      <template v-slot:footer>
+        <h3>Footer</h3>
+      </template>
+
     </Clock>
 
-    <!-- Use slot fallback or Default slot template -->
-    <Clock />
   </div>
 </template>
 
