@@ -5,6 +5,7 @@ import CssBinding from "../views/CssBinding.vue";
 import formInput from "../views/formInput.vue";
 import slotLearn from "../views/Slot_lern.vue";
 import Condition from "../views/Condition.vue";
+import Loop from "../views/Loop.vue";
 
 Vue.use(VueRouter);
 
@@ -31,8 +32,13 @@ const routes = [
   },
   {
     path: "/condition",
-    name: "Slot",
+    name: "Condition",
     component: Condition,
+  },
+  {
+    path: "/loop",
+    name: "Loop",
+    component: Loop,
   },
 ];
 

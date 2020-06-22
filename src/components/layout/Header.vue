@@ -5,6 +5,7 @@
       <router-link to="/form_input">Form Input</router-link> |
       <router-link to="/slot">Slot</router-link> |
       <router-link to="/condition">Condition</router-link> |
+      <router-link to="/loop">Loop</router-link> |
     </div>
 </template>
 
