@@ -4,6 +4,7 @@
       <router-link to="/css_binding">Css Binding</router-link> |
       <router-link to="/form_input">Form Input</router-link> |
       <router-link to="/slot">Slot</router-link> |
+      <router-link to="/condition">Condition</router-link> |
     </div>
 </template>
 
