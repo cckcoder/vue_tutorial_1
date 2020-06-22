@@ -6,6 +6,7 @@
       <router-link to="/slot">Slot</router-link> |
       <router-link to="/condition">Condition</router-link> |
       <router-link to="/loop">Loop</router-link> |
+      <router-link to="/dynamic_add_and_remove">Dynamic Add Remove</router-link> |
     </div>
 </template>
 

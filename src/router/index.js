@@ -6,6 +6,7 @@ import formInput from "../views/formInput.vue";
 import slotLearn from "../views/Slot_lern.vue";
 import Condition from "../views/Condition.vue";
 import Loop from "../views/Loop.vue";
+import DynamicAddRemove from "../views/DynamicAddRemove.vue";
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,11 @@ const routes = [
     path: "/loop",
     name: "Loop",
     component: Loop,
+  },
+  {
+    path: "/dynamic_add_and_remove",
+    name: "Loop",
+    component: DynamicAddRemove,
   },
 ];
 
