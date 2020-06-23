@@ -8,6 +8,7 @@
       <router-link to="/loop">Loop</router-link> |
       <router-link to="/dynamic_add_and_remove">Dynamic Add Remove</router-link> |
       <router-link to="/life_cycle_hook">Life cycle hook</router-link> |
+      <router-link to="/variable">Variable</router-link> |
     </div>
 </template>
 

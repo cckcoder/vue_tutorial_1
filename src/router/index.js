@@ -8,6 +8,7 @@ import Condition from "../views/Condition.vue";
 import Loop from "../views/Loop.vue";
 import DynamicAddRemove from "../views/DynamicAddRemove.vue";
 import LifeCycleHooks from "../views/LifeCycleHooks.vue"
+import Variable from "../views/Variable.vue"
 
 Vue.use(VueRouter);
 
@@ -51,6 +52,11 @@ const routes = [
     path: "/life_cycle_hook",
     name: "LifeCycleHooks",
     component: LifeCycleHooks,
+  },
+  {
+    path: "/variable",
+    name: "Variable",
+    component: Variable,
   },
 ];
 
