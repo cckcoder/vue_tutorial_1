@@ -7,6 +7,7 @@
       <router-link to="/condition">Condition</router-link> |
       <router-link to="/loop">Loop</router-link> |
       <router-link to="/dynamic_add_and_remove">Dynamic Add Remove</router-link> |
+      <router-link to="/ref">Ref (To access DOM Element)</router-link> |
     </div>
 </template>
 

@@ -7,6 +7,7 @@ import slotLearn from "../views/Slot_lern.vue";
 import Condition from "../views/Condition.vue";
 import Loop from "../views/Loop.vue";
 import DynamicAddRemove from "../views/DynamicAddRemove.vue";
+import Ref from "../views/Ref.vue";
 
 Vue.use(VueRouter);
 
@@ -43,8 +44,13 @@ const routes = [
   },
   {
     path: "/dynamic_add_and_remove",
-    name: "Loop",
+    name: "DynamicAddRemove",
     component: DynamicAddRemove,
+  },
+  {
+    path: "/ref",
+    name: "Ref",
+    component: Ref,
   },
 ];
 
